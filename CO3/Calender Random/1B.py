@@ -1,0 +1,12 @@
+import time
+print("Current Time:\n",time.ctime())
+print("Current Time:\n",time.ctime(time.time()+20))
+print("Current Time:\n",time.ctime(time.time()))
+t=time.localtime()
+print("Time is:",t)
+print("Time in Year:",t.tm_year)
+print("Time in Month:",t.tm_mon)
+print("Time in Day:",t.tm_mday)
+print("Time in Hour:",t.tm_hour)
+print("Time in Minute:",t.tm_min)
+print("Time in Weakday:",t.tm_wday)
