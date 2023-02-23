@@ -1,3 +1,3 @@
-file=open("fileNew.txt",'r')
+file=open("file.txt",'r')
 r=file.readlines()
 print(r)
